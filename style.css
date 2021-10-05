@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+html {
+    width: 100vw;
+    overflow: scroll;
+}
+body {
+    font-family: "Catamaran", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+header {
+    background: #1565c0;
+    height: 300px;
+    color: #ffffff;
+    display: flex;
+    margin: 0;
+}
+img {
+    max-width: 576px;
+    width: 100%;
+}
+header h1 {
+    margin: auto;
+    font-size: 72px;
+}
+header #github {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+header #download {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    height: 40px;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header #githubUser {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 40px;
+    display: flex;
+}
+header #githubUser span {
+    margin: auto;
+}
+header #download span {
+    margin: auto;
+    background: #ffffff;
+    color: #1565c0;
+    padding: 4px 32px;
+    border-radius: 20px;
+}
+header a {
+    color: #ffffff;
+}
+main {
+    max-width: 576px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color: #1565c0;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+@media only screen and (max-width:576px) {
+    header h1 {
+        font-size: 48px;
+    }
+    main {
+        padding: 16px;
+    }
+}
+@media only screen and (max-width:425px) {
+    header #download {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+    header #githubUser {
+        display: none;
+    }
+    header #download span {
+        margin: 0;
+    }
+}
