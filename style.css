@@ -56,7 +56,6 @@ a:hover {
 
 nav {
     background: #1565c0;
-    position: sticky;
     z-index: 16777216;
     top: 0;
     box-shadow: 0 4px 8px #00000080;
