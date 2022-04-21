@@ -270,11 +270,12 @@ details summary {
     background-color: #1565c0;
     color: #ffffff;
     cursor: pointer;
-    padding: 12px;
+    padding: 8px;
     margin-bottom: 0;
     box-sizing: border-box;
     border-radius: 4px;
-    transition: border-radius 100ms cubic-bezier(.66,.01,.35,.99);
+    transition: border-radius 100ms cubic-bezier(0.66, 0, 0.35, 1);
+    box-shadow: 0 2px 4px #00000080;
 }
 
 details summary > * {
@@ -287,18 +288,16 @@ details > summary img {
 }
 
 details-body {
-    border: 8px solid #1565c0;
     width: 100%;
     box-sizing: border-box;
     display: block;
     margin: 0;
     padding: 12px;
     border-radius: 0 0 4px 4px;
-    outline-color: #1565c0;
 }
 
 details[open] summary ~ * {
-    animation: sweep 100ms cubic-bezier(0.66, 0, 0.35, 0.99);
+    animation: sweep 100ms cubic-bezier(0.66, 0, 0.35, 1);
 }
 
 details[open] summary {
