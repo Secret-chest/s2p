@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+permalink: /
 ---
 
 Scratch2Python allows you to run Scratch projects in Python. It is still not finished. [Contribute here!](https://github.com/Secret-chest/scratch2python)
