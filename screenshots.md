@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Screenshots
+permalink: /screenshots/
 ---
 
 ![Screenshot of Scratch2Python on Linux Mint](/images/screenshots/linux-mint.png "Screenshot of Scratch2Python on Linux Mint")

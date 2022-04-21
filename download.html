@@ -1,13 +1,15 @@
 ---
 layout: default
 title: Download
+permalink: /download/
 ---
+
 <div class="note">
-    <img src="/images/information.svg">
+    <img src="{{ site.baseurl }}/images/information.svg">
     <p><b>Note:</b> Packages are not released yet. They will be available for the release (and probably alpha / beta / delta) versions, but we're still in early development, so there's no point in packaging it. Python code is pretty easy to run anyways.</p>
 </div>
 <div class="note">
-    <img src="/images/information.svg">
+    <img src="{{ site.baseurl }}/images/information.svg">
     <p><b>Note:</b> The main branch / releases page may possibly seem stale, but Scratch2Python is still being worked on. Go <a href="https://github.com/Secret-chest/scratch2python/branches">here</a> to see all branches.</p>
 </div>
 
@@ -73,6 +75,7 @@ title: Download
     <summary><h3>Supported operating systems</h3></summary>
     <details-body>
         <p>Scratch2Python runs anywhere Python 3.8+ can run.</p>
+        <h4>Supported</h4>
         <ul>
             <li>Windows 8+</li>
             <li>Ubuntu 20.04+</li>
@@ -84,6 +87,10 @@ title: Download
             <li>Arch Linux, Manjaro and other Arch-based distros</li>
             <li>MacOS 10.6 (Snow Leopard) or newer</li>
             <li>Other GNU/Linux distros can build Python from source</li>
+        </ul>
+        <h4>Supported but support may be dropped</h4>
+        <ul>
+            <li>Windows Vista, Windows 7 (Python 3.9+ only supports Windows 8+)</li>
         </ul>
     </details-body>
 </details>

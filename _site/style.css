@@ -316,6 +316,7 @@ details[open] summary {
   
 details {
     margin-top: 12px;
+    box-shadow: 0 4px 8px #00000080;
 }
 
 @media screen and (max-width: 768px) {
