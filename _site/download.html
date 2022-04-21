@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Download — Scratch2Python</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <header>
+        <nav>
+            <div id="nav-left">
+                <a href="/"><b>Scratch2Python</b></a>
+                <a href="/download.html">Download</a>
+                <a href="/screenshots.html">Screenshots</a>
+            </div>
+            <div id="nav-right">
+                <a href="https://Secret-chest.github.io" id="secret-chest"><b>Made by Secret-chest</b></a>
+                <a href="https://github.com/Secret-chest/Scratch2Python"><img alt="GitHub" src="/github.svg" id="github-logo" title="View on GitHub"></a>
+            </div>
+        </nav>
+        <h1>Download</h1>
+        <div id="badges">
+            <a href="https://github.com/Secret-chest/Scratch2Python"><img alt="Programming language" src="https://img.shields.io/github/languages/top/Secret-chest/Scratch2Python?labelColor=546e7a&color=26c6da&logo=python&logoColor=26c6da&style=flat-square"></a>
+            <a href="https://github.com/Secret-chest/scratch2python/blob/main/LICENSE.md"><img alt="GitHub" src="https://img.shields.io/github/license/Secret-chest/Scratch2Python?style=flat-square&labelColor=546e7a&color=ffa000"></a>
+            <a href="https://github.com/Secret-chest/Scratch2Python/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Secret-chest/Scratch2Python?labelColor=546e7a&color=64dd17&logo=github&logoColor=ffffff&style=flat-square"></a>
+            <a href="https://github.com/Secret-chest/Scratch2Python/pulls"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Secret-chest/Scratch2Python?labelColor=546e7a&color=64dd17&logo=github&logoColor=ffffff&style=flat-square"></a>
+            <a href="https://github.com/Secret-chest/scratch2python/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Secret-chest/scratch2python?labelColor=546e7a&color=ffc107&logo=github&style=social"></a>
+            <a href="https://github.com/Secret-chest/Scratch2Python/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Secret-chest/scratch2python?style=social"></a>
+            <a href="https://github.com/Secret-chest/Scratch2Python/watchers"><img alt="GitHub watchers" src="https://img.shields.io/github/watchers/Secret-chest/scratch2python?style=social"></a>
+        </div>
+    </header>
+    <main>
+        <div class="note">
+    <img src="/images/information.svg">
+    <p><b>Note:</b> Packages are not released yet. They will be available for the release (and probably alpha / beta / delta) versions, but we're still in early development, so there's no point in packaging it. Python code is pretty easy to run anyways.</p>
+</div>
+<div class="note">
+    <img src="/images/information.svg">
+    <p><b>Note:</b> The main branch / releases page may possibly seem stale, but Scratch2Python is still being worked on. Go <a href="https://github.com/Secret-chest/scratch2python/branches">here</a> to see all branches.</p>
+</div>
+
+<div class="select">
+    <label for="install-method">Install method</label><br>
+    <select name="install-method" id="install-method">
+        <option value="">Choose…</option>
+        <option value="source">I want to run from source code</option>
+    </select>
+</div>
+
+<div class="select">
+    <label for="source--release">Release</label><br>
+    <select name="source--release" id="source--release">
+        <option value="">Choose…</option>
+        <option value="release">Published release</option>
+        <option value="development">Main branch (development)</option>
+    </select>
+</div>
+
+<div class="select">
+    <label for="source--development--git">Use Git</label><br>
+    <select name="source--development--git" id="source--development--git">
+        <option value="">Choose…</option>
+        <option value="clone-main">Clone the main branch, I want to get updates</option>
+        <option value="fork">Fork the repository and clone my fork, I want to send pull requests</option>
+        <option value="zip">I want to download an archive</option>
+    </select>
+</div>
+
+<div id="source--release--release">
+    <a class="button button-green" href="https://github.com/Secret-chest/Scratch2Python/releases"><span class="material-icons">download</span>Download a release from GitHub</a>
+</div>
+
+<div id="source--development--zip">
+    <a class="button button-amber" href="https://github.com/Secret-chest/scratch2python/archive/refs/heads/main.zip"><span class="material-icons">download</span>Download zip</a>
+    <a class="button button-pink" href="https://github.com/Secret-chest/scratch2python/archive/refs/heads/main.tar.gz"><span class="material-icons">download</span>Download tar.gz</a>
+</div>
+
+<div id="source--development--clone-main">
+    <p>In your BASH terminal (Linux/MacOS) or Git Bash (Windows), go to the location where you would like to keep Scratch2Python and type:</p>
+    <pre>git clone https://github.com/Secret-chest/scratch2python.git</pre>
+    <p>To get updates, type <code>cd scratch2python</code>, then <code>git pull</code>.</p>
+</div>
+
+<div id="source--development--fork">
+    <p>Click the button to clone Scratch2Python. Keep the repository name and set the owner to your personal account.</p>
+    <a class="button button-purple" href="https://github.com/Secret-chest/scratch2python/fork"><span class="material-icons">fork_right</span>Fork Scratch2Python</a>
+    <p>then clone your fork using:</p>
+    <pre>git clone https://github.com/YOUR-USERNAME/scratch2python.git</pre>
+</div>
+
+<div id="source--python-note">
+    <h2>Install Python</h2>
+    <p>You'll need to download Python 3 to use Scratch2Python on Windows and MacOS. On most recent GNU/Linux distros, Python 3 is preinstalled.</p>
+    <p>Minimum required Python version is 3.8.</p>
+    <a class="button" href="https://www.python.org/downloads/">Download Python</a>
+    <p>After going into the Scratch2Python directory, run the following command to install the required Python packages:</p>
+    <pre>pip install -r requirements.txt</pre>
+</div>
+
+<details>
+    <summary><h3>Supported operating systems</h3></summary>
+    <details-body>
+        <p>Scratch2Python runs anywhere Python 3.8+ can run.</p>
+        <ul>
+            <li>Windows 8+</li>
+            <li>Ubuntu 20.04+</li>
+            <li>Ubuntu 18.04+ using deadsnakes PPA</li>
+            <li>Linux Mint 20+</li>
+            <li>Linux Mint 19+ using deadsnakes PPA</li>
+            <li>Zorin OS 16+</li>
+            <li>Debian 11+</li>
+            <li>Arch Linux, Manjaro and other Arch-based distros</li>
+            <li>MacOS 10.6 (Snow Leopard) or newer</li>
+            <li>Other GNU/Linux distros can build Python from source</li>
+        </ul>
+    </details-body>
+</details>
+
+<script>
+    function update() {
+        document.getElementById("source--release").parentNode.style.display = document.getElementById("install-method").value == "source" ? "block" : "none";
+        document.getElementById("source--development--git").parentNode.style.display = document.getElementById("source--release").value == "development" ? "block" : "none";
+        document.getElementById("source--release--release").style.display = document.getElementById("source--release").value == "release" ? "block" : "none";
+        document.getElementById("source--development--zip").style.display = document.getElementById("source--development--git").value == "zip" ? "block" : "none";
+        document.getElementById("source--development--clone-main").style.display = document.getElementById("source--development--git").value == "clone-main" ? "block" : "none";
+        document.getElementById("source--python-note").style.display = document.getElementById("install-method").value == "source" ? "block" : "none";
+        document.getElementById("source--development--fork").style.display = document.getElementById("source--development--git").value == "fork" ? "block" : "none";
+        console.log("updating");
+    }
+    setInterval(update, 50);
+</script>
+    </main>
+    <script src="/ripples.js"></script>
+</html>
