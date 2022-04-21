@@ -56,7 +56,7 @@ a:hover {
 
 nav {
     background: #1565c0;
-    position: fixed;
+    position: sticky;
     z-index: 16777216;
     top: 0;
     box-shadow: 0 4px 8px #00000080;
@@ -67,10 +67,6 @@ nav {
     padding: 0 16px;
     box-sizing: border-box;
     align-items: stretch;
-}
-
-header {
-    padding-top: 64px;
 }
 
 #nav-left, #nav-right {
