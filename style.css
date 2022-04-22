@@ -15,7 +15,7 @@ body {
 }
 header {
     background: #1565c0;
-    height: 256px;
+    min-height: 256px;
     color: #ffffff;
     display: flex;
     flex-direction: column;
