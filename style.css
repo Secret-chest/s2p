@@ -66,6 +66,7 @@ nav {
     padding: 0 16px;
     box-sizing: border-box;
     align-items: stretch;
+    position: sticky;
 }
 
 #nav-left, #nav-right {
@@ -88,12 +89,12 @@ nav {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #00000099;
+    background: #00000066;
     border-radius: 1024px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #000000cc;
+    background: #00000099;
 }
 
 select {
@@ -244,7 +245,7 @@ select:focus {
     color: #212121;
 }
 
-pre {
+pre, blockquote {
     background: #eceff1;
     border-left: 4px solid #546e76;
     padding: 8px 8px;
@@ -317,9 +318,10 @@ details {
     nav {
         flex-wrap: wrap;
         justify-content: center;
-        column-gap: 12px;
+        column-gap: 48px;
         height: auto;
         padding: 12px 0;
+        transition: 1s;
     }
 }
 
@@ -328,4 +330,11 @@ details {
         flex-direction: column;
         row-gap: 8px;
     }
+}
+
+#badges {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 8px;
 }
